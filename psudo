@@ -1,0 +1,48 @@
+Task 2
+"""
+TASK 2: Which telephone number spent the longest time on the phone
+during the period? Don't forget that time spent answering a call is
+also time spent on the phone.
+Print a message:
+"<telephone number> spent the longest time, <total time> seconds, on the phone during
+September 2016.".
+"""
+
+input list of calls []
+
+
+
+output phone number with longest time,  and duration of it
+
+Ex: 1111,2222,5
+    2222,3333,10
+    2222,1111,5
+
+    1111, 10
+    2222, 20
+    3333, 10
+Ex2:1111,2222,5
+    1111.4444.10
+
+    1111,15
+    2222,5
+    4444,10
+
+array[phone number, duration]
+maxDuration = 0
+maxNumber = ""
+loop each entry in list
+    addTolist array, phonenumber 1, duration
+
+    if max < currentDuration
+        max = currentDuration
+        maxNumber = currentNumber
+
+    addTolist array, phonenumber 2, duration
+
+function addTolist(list, new numberList, duration)
+    for each new number in new number list
+        if phone number in list
+            insert and update the duration
+        else
+            add phonumber to the list with current duration
